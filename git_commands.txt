@@ -1,0 +1,93 @@
+1.head and master conecpt
+2. Git commands
+
+git config --global user.name "FIRST_NAME LAST_NAME"
+git config --global user.email "MY_NAME@example.com"
+git init
+git status
+git add --all
+git commit -m "initial commit"
+git log
+git checkout 1467dfd3a2f570de8bbf583b88566917db0f06fb
+git log
+git checkout master
+git log
+
+branch
+
+git branch feature
+git checkout feature
+git commit -m "seperate commit"
+
+merging feature branch to master branch- fast forward
+git checkout master
+git merge feature
+
+list all the branches in the repository
+git branch
+
+see the difference
+git diff
+
+removing the coded lines after a commit
+git stash
+
+
+merging feature branch to master - recursive mode
+merge seperate commits of the two branches
+git checkout master
+git merge feature
+Volarmogulis@096
+Valathil@096
+
+conflict merge- fix inside the file manually
+git checkout master
+git merge feature
+
+
+showing the log with graph
+git log --all --decorate --graph
+
+adding remote repository
+git remote add hub https://github.com/irfanvp/KOTLIN.git
+git remote
+git remote -v
+git push hub master
+git push hub feature
+
+
+modify and push
+git add --all
+git commit -m "modify commit"
+git push hub master
+
+cloning the source code
+git clone https://github.com/irfanvp/KOTLIN.git
+git log
+modify and push
+
+SMALL TEAM COLLABORATION
+adding outside collaborator in github project
+
+update master branch with latest code from the github
+git pull
+git checkout socialmedia
+git merge master
+git commit -m " master branch merged to socialmedia"
+git push origin socialmedia
+create pull request from github
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

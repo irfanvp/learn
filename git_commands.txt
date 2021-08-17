@@ -37,8 +37,6 @@ merging feature branch to master - recursive mode
 merge seperate commits of the two branches
 git checkout master
 git merge feature
-Volarmogulis@096
-Valathil@096
 
 conflict merge- fix inside the file manually
 git checkout master
